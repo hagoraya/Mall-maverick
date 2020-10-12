@@ -6,8 +6,10 @@ import { BootstrapVue } from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
-import Test from './components/Test.vue';
+import Stores from './Views/Stores/Store';
 import HomePage from './Views/HomePage/HomePage'
+import Aldo from './Views/StorePages/Aldo/Aldo'
+
 
 Vue.use(VueRouter)
 Vue.use(BootstrapVue)
@@ -21,9 +23,14 @@ const router = new VueRouter({
       component: HomePage 
     },
     { 
-      path: '/test', 
-      component: Test
+      path: '/stores', 
+      component: Stores
+    },
+    {
+      path: '/store/aldo',
+      component: Aldo
     }
+  
   ],
   mode: 'history'
 

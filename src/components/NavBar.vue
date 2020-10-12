@@ -10,7 +10,9 @@
           <img src="./../assets/Menu Icon.svg" alt="Menu">
         </b-navbar-nav>
         <b-navbar-nav>
-          <span class="navbar-text" id="open-now">Stores Directory</span>
+          <div class="navbar-text" id="open-now">
+             <router-link to="/stores">Stores Directory</router-link>
+            </div>
         </b-navbar-nav>
         </div>
 
