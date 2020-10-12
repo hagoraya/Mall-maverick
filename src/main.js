@@ -9,6 +9,8 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import Stores from './Views/Stores/Store';
 import HomePage from './Views/HomePage/HomePage'
 import Aldo from './Views/StorePages/Aldo/Aldo'
+import Angler from './Views/StorePages/Angler/Angler'
+
 
 
 Vue.use(VueRouter)
@@ -29,6 +31,10 @@ const router = new VueRouter({
     {
       path: '/store/aldo',
       component: Aldo
+    },
+    {
+      path: '/store/angler',
+      component: Angler
     }
   
   ],

@@ -89,7 +89,7 @@
                 </div>
 
                 <div class="store">
-                    <router-link to="/store/anger"> <img class="store-img" src="./Assets/Angler.png" alt="Angler"> </router-link>
+                    <router-link to="/store/angler"> <img class="store-img" src="./Assets/Angler.png" alt="Angler"> </router-link>
                     
                     <div class="store-info">
                         <span class="store-name">Angler</span>
