@@ -156,6 +156,86 @@
                     </div>
                 </div>
 
+                <div class="store">
+                    <img class="store-img" src="./Assets/brics.png" alt="akira">
+                    <div class="store-info">
+                        <span class="store-name" >Bric’s luggage</span>
+                        <span>575.755.7575</span>
+                        <span class="store-details" >STORE DETAILS > </span>
+                    </div>
+                </div>
+                <div class="store">
+                    <img class="store-img" src="./Assets/bros.png" alt="akira">
+                    <div class="store-info">
+                        <span class="store-name" >BROOKS BROTHERS</span>
+                        <span>575.755.7575</span>
+                        <span class="store-details" >STORE DETAILS > </span>
+                    </div>
+                </div>
+
+                <div class="store">
+                    <img class="store-img" src="./Assets/bur.png" alt="akira">
+                    <div class="store-info">
+                        <span class="store-name" >BURBERRY</span>
+                        <span>575.755.7575</span>
+                        <span class="store-details" >STORE DETAILS > </span>
+                    </div>
+                </div>
+
+                <div class="store">
+                    <img class="store-img" src="./Assets/cal.png" alt="akira">
+                    <div class="store-info">
+                        <span class="store-name" >CAL MARE</span>
+                        <span>575.755.7575</span>
+                        <span class="store-details" >STORE DETAILS > </span>
+                    </div>
+                </div>
+
+                <div class="store">
+                    <img class="store-img" src="./Assets/coach.png" alt="akira">
+                    <div class="store-info">
+                        <span class="store-name" >COFFEE COMMISSARY</span>
+                        <span>575.755.7575</span>
+                        <span class="store-details" >STORE DETAILS > </span>
+                    </div>
+                </div>
+
+                <div class="store">
+                    <img class="store-img" src="./Assets/comm.png" alt="akira">
+                    <div class="store-info">
+                        <span class="store-name" >BURBERRY</span>
+                        <span>575.755.7575</span>
+                        <span class="store-details" >STORE DETAILS > </span>
+                    </div>
+                </div>
+
+                 <div class="store">
+                    <img class="store-img" src="./Assets/cos.png" alt="akira">
+                    <div class="store-info">
+                        <span class="store-name" >BURBERRY</span>
+                        <span>575.755.7575</span>
+                        <span class="store-details" >STORE DETAILS > </span>
+                    </div>
+                </div>
+
+                 <div class="store">
+                    <img class="store-img" src="./Assets/diesel.png" alt="akira">
+                    <div class="store-info">
+                        <span class="store-name" >BURBERRY</span>
+                        <span>575.755.7575</span>
+                        <span class="store-details" >STORE DETAILS > </span>
+                    </div>
+                </div>
+
+                 <div class="store">
+                    <img class="store-img" src="./Assets/dng.png" alt="akira">
+                    <div class="store-info">
+                        <span class="store-name" >BURBERRY</span>
+                        <span>575.755.7575</span>
+                        <span class="store-details" >STORE DETAILS > </span>
+                    </div>
+                </div>
+
             </div>
 
       </div>

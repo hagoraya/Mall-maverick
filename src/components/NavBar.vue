@@ -18,7 +18,9 @@
 
         <b-navbar-nav class="d-none d-md-block mx-auto">
           <b-nav-text>
-            <h4 class="company-text">Mall Maverick</h4>
+            <h4 class="company-text">
+              <router-link to="/">Mall Maverick</router-link>
+              </h4>
           </b-nav-text>
         </b-navbar-nav>
         <b-navbar-nav>
@@ -77,11 +79,14 @@ export default {
 .company-text{
   padding-left: 100px;
   font-size: 32px;
+  text-decoration: none;
 }
 
 #open-now{
   font-size: 14px;
 }
 
- 
+h4{
+  text-decoration: none;
+}
 </style>

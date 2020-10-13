@@ -107,8 +107,12 @@
     <div id="location-div">
       <div id="address-box">
         <h2 id="big-address">Mall Maverick</h2>
-        <span id="address-sm">128 Streetname Ave</span>
-        <span id="address-sm">Toronto, Ontario M2MB3B</span>
+        <div class="address-sm">
+        <span id="sm">128 Streetname Ave</span>
+        <br>
+        <span id="sm">Toronto, Ontario M2MB3B</span>
+        </div>
+       
         <h2 id="big-address">647-704-3390</h2>
       </div>
       <div id="location-pin">
@@ -189,6 +193,15 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap');
 
 
+
+.address-sm{
+  text-align: left;
+  margin-left: 9rem;
+  font-family: 'Montserrat';
+  letter-spacing: 0.64px;
+
+
+}
 .change_color{
     background-color: #91ACB2;
     z-index: 10;
@@ -463,10 +476,11 @@ export default {
   background-color: #AF9067;
   height: 300px;
   width: 30%;
- display: flex;
- justify-content: center;
- flex-direction: column;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   color: white;
+  font-family: 'Montserrat';
 }
 
 #big-address{
