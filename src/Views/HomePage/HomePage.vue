@@ -1,6 +1,6 @@
 <template>
   <div class="homepage-div">
-    <NavBar/>
+    <NavBar :class="{change_color: scrollPosition > 900}" id="nav-transparent"/>
     
     <div class="homepage-container">
     
@@ -161,7 +161,24 @@ export default {
     'NavBar': NavBar,
     'YoutubeCard': YouTubeCard,
     'Footer': Footer
+  },
+
+  data: function(){
+      return{
+            scrollPosition: null
+      }
+  },
+
+  methods:{
+      updateScroll(){
+          this.scrollPosition = window.scrollY
+      }
+  },
+
+  mounted(){
+      window.addEventListener('scroll', this.updateScroll)
   }
+
 }
 </script>
 
@@ -170,6 +187,12 @@ export default {
 
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap');
+
+
+.change_color{
+    background-color: #91ACB2;
+    z-index: 10;
+}
 
 #subsection-youtube{
   font-size: 20px;

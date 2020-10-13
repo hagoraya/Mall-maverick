@@ -293,10 +293,14 @@ components: {
     display: flex;
     flex-direction: column;
     margin-bottom: 2rem;
+    margin-top: 5rem;
 
 }
 
 #nav{
     background-color: #91ACB2;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 </style>

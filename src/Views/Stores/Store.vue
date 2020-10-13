@@ -1,7 +1,7 @@
 <template>
 <div class="txy">
   <div class="stores-container">
-      <NavBar/>
+      <NavBar :class="{change_color: scrollPosition > 250}" id="nav-transparent" />
       <div class="directory-content">
                    <h1 id="page-title">STORES DIRECTORY</h1>
 
@@ -165,20 +165,49 @@
   </div>
 </template>
 
+
+
 <script>
 import NavBar from './../../components/NavBar'
 import Footer from './../../components/Footer'
 
 
 export default {
-    components: {
+   components: {
     'NavBar': NavBar,
     'Footer': Footer
+  },
+
+  data: function(){
+      return{
+            scrollPosition: null
+      }
+  },
+
+  methods:{
+      updateScroll(){
+          this.scrollPosition = window.scrollY
+      }
+  },
+
+  mounted(){
+      window.addEventListener('scroll', this.updateScroll)
   }
+
+
+
 }
+
+
+
+
 </script>
 
 <style>
+
+.change_color{
+    background-color: #91ACB2;
+}
 
 #page-title{
     z-index: 1;
@@ -284,6 +313,16 @@ export default {
     padding-left: -1rem;
 }
 
+#nav-transparent{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.scrolled{
+    background-color: #91ACB2;
+
+}
 
 
 .stores-container::before{

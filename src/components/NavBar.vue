@@ -76,6 +76,7 @@ export default {
 
 .company-text{
   padding-left: 100px;
+  font-size: 32px;
 }
 
 #open-now{
