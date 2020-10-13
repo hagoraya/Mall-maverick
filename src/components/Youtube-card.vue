@@ -25,6 +25,7 @@
 
       <div class="youtube-card">
           <img id="preview" src="./../assets/y2.png" alt="">
+        
           <div class="info-div">
               <div class="channel-icon">
                   <img  src="./../assets/youtube-avatar.svg" alt="">
@@ -94,6 +95,31 @@ export default {
 
 
 
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 25px solid green;
+  position: relative;
+  left: 138px;
+  bottom: 260px;
+
+}
+
+.play-circle{
+   border:4px solid green;
+  border-radius:50%;
+  background:rgba(0,0,0,0);
+  color:white;
+  width:88px;
+  height:88px;
+  text-align:center;
+  line-height:100px;
+  position: relative;
+ left: 100px;
+ bottom: 10px;
+}
 
 
 
